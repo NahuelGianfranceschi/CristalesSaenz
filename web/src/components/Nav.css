@@ -1,0 +1,48 @@
+.NavContainer{
+    background-color: #3667A1;
+    color: rgb(253, 253, 253);
+    max-width: 100vw;
+    width: 100%;
+    height: 10%;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Nombre-Logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navegacion{
+    
+    font-size: 130%;
+    color: #212529;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    padding-bottom: 0.2rem;
+    justify-content: space-evenly;
+}
+
+.BotonNav{
+    border: none;
+    background: none;
+    color: #212529;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding-inline: 2rem;
+    text-decoration: none;
+} 
+
+#logo-nav{
+    align-self: center;
+    width: 4rem;
+}
+
+.BotonNav:hover{
+    color: #f8f7f7;
+    transition: 0.4s;
+}
