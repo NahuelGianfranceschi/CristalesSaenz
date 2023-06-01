@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Nav';
 import Footerf from './components/Footer';
 import Vidrios from './components/Productos';
-//import Contact from './components/Contacto';
+import Contact from './components/Contacto';
 import Trabajos from './components/Carrusel';
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
           
           <Routes>
             <Route path='/' element={<Trabajos />}></Route>          
-            <Route path='/Vidrios' element={<Vidrios />}></Route>{/* 
-            <Route path='/Contacto' element={<Contact />}></Route>*/}
+            <Route path='/Vidrios' element={<Vidrios />}></Route> 
+            <Route path='/Contacto' element={<Contact />}></Route>
             </Routes>
 
         </div>

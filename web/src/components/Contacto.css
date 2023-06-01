@@ -1,0 +1,54 @@
+.formulario{
+    margin-top: 8rem;
+    margin-inline: 16rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+  
+}
+
+.img-contacto{
+    min-height: -webkit-fill-available;
+    min-width: -webkit-fill-available;
+}
+
+#form-mail{
+    margin-top: 2rem;
+}
+
+#form-mnsj{
+    margin-top: 2rem;
+}
+
+#form-archivo{
+    margin-top: 2rem;
+}
+
+#form-nombre{
+    margin-top: 2rem;
+}
+
+#exampleFormControlFile1{
+    margin-top: 2rem;
+    margin-inline: 1rem;
+}
+
+.ContactoDiv{
+    margin: 8rem;
+    padding: 2rem;
+    border-radius: 2%;
+    background-color: #212529;
+    color: #FFFF;
+}
+
+.form-label{
+    color: #FFFF;
+}
+
+.botoncon{
+    margin-top: 2rem;
+}
