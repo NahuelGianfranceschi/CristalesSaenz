@@ -1,72 +1,17 @@
-.footerdiv{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 4rem;
-    padding-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: #3667A1;
-    color: rgb(253, 253, 253);
-    bottom: 0%;
-    max-width: 100vw;
-    width: 100%;
-}
-
-.text-uppercase{
-    padding-bottom: 1rem;
-}
-
-a:-webkit-any-link {
-    text-decoration: none;
-}
-
-.row{
-    justify-content: space-evenly;    
-}
-
-.textoiconos{
-    display: inline-flex;
-    margin-left: 1rem;
-}
-
-#Titulo-Footer{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-align-self: center;
-}
-
-a {
-    color: rgb(253, 253, 253);
-}
-
-.Iconos{   
-    height: 2rem;
-    margin-top: 0.2rem;
-    color: #212529;
-}
-
 #logo-footer{
-    align-self: center;
     width: 4rem;
+    height: 5rem;
 }
+
 
 #footer-nombre-logo{
     display: flex;
-    flex-direction: row;
+    place-items: center;
+    margin-left: -6rem;
 }
 
-#wpp{
-    margin-top: 0rem;
-}
-
-#gmail{
-    height: 1.8rem;
-}
-
-#footer-copy{
-    background-color: #212529;
-}
-
-.Iconos:hover{
-    color: #f8f7f7;
-    transition: 0.4s;
+.divfooter{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
 }

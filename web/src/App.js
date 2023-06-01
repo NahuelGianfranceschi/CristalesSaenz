@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Nav';
-//import Footerf from './components/Footer';
+import Footerf from './components/Footer';
 //import Vidrios from './components/Productos';
 //import Contact from './components/Contacto';
 import Trabajos from './components/Carrusel';
@@ -24,7 +24,7 @@ function App() {
             </Routes>
 
         </div>
-      {/*<Footerf/>*/}  
+      <Footerf/>  
       </BrowserRouter>
     </div>
   );
